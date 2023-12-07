@@ -55,6 +55,10 @@ public class WalletMenu {
             System.out.println("Your current money is : " + amount);
         }
 
+        else if ( toTake < 0 ){
+            System.out.println("You can take low 0");
+        }
+
         else {
             System.out.println("You don't have enough balance to make this withdrawal");
         }
